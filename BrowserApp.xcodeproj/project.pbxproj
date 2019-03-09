@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02835F8610A2DB0F1B5841D5 /* Pods_BrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4995D5068EA5FE444E24DE52 /* Pods_BrowserApp.framework */; };
 		2BF0F06A22323F8F0010110C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F06922323F8F0010110C /* AppDelegate.swift */; };
 		2BF0F06C22323F8F0010110C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F06B22323F8F0010110C /* ViewController.swift */; };
 		2BF0F06F22323F8F0010110C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0F06D22323F8F0010110C /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		2BF0F07422323F900010110C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF0F07222323F900010110C /* LaunchScreen.storyboard */; };
 		2BF0F07F22323F900010110C /* BrowserAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F07E22323F900010110C /* BrowserAppTests.swift */; };
 		2BF0F08A22323F900010110C /* BrowserAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F08922323F900010110C /* BrowserAppUITests.swift */; };
+		2BF0F098223245440010110C /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F097223245440010110C /* URLManager.swift */; };
+		2BF0F09A223247340010110C /* URLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F099223247340010110C /* URLViewController.swift */; };
+		2BF0F09E223285A90010110C /* URLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F09D223285A90010110C /* URLTableViewCell.swift */; };
+		2BF0F0A02233DA5F0010110C /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F09F2233DA5F0010110C /* DBManager.swift */; };
+		2BF0F0A22233E2B80010110C /* UrlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0F0A12233E2B80010110C /* UrlModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20FFEBD4ABE56182D45CAEBF /* Pods-BrowserApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserApp.release.xcconfig"; path = "Target Support Files/Pods-BrowserApp/Pods-BrowserApp.release.xcconfig"; sourceTree = "<group>"; };
 		2BF0F06622323F8F0010110C /* BrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF0F06922323F8F0010110C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF0F06B22323F8F0010110C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		2BF0F08522323F900010110C /* BrowserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF0F08922323F900010110C /* BrowserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserAppUITests.swift; sourceTree = "<group>"; };
 		2BF0F08B22323F900010110C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF0F097223245440010110C /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		2BF0F099223247340010110C /* URLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLViewController.swift; sourceTree = "<group>"; };
+		2BF0F09D223285A90010110C /* URLTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTableViewCell.swift; sourceTree = "<group>"; };
+		2BF0F09F2233DA5F0010110C /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		2BF0F0A12233E2B80010110C /* UrlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlModel.swift; sourceTree = "<group>"; };
+		4995D5068EA5FE444E24DE52 /* Pods_BrowserApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowserApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499A4B3FBAD43681470555F3 /* Pods-BrowserApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowserApp.debug.xcconfig"; path = "Target Support Files/Pods-BrowserApp/Pods-BrowserApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02835F8610A2DB0F1B5841D5 /* Pods_BrowserApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				2BF0F07D22323F900010110C /* BrowserAppTests */,
 				2BF0F08822323F900010110C /* BrowserAppUITests */,
 				2BF0F06722323F8F0010110C /* Products */,
+				89DB3DE05F0970C69C6CBBD6 /* Pods */,
+				785620ABBFF9C6716139B6E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +116,12 @@
 			children = (
 				2BF0F06922323F8F0010110C /* AppDelegate.swift */,
 				2BF0F06B22323F8F0010110C /* ViewController.swift */,
+				2BF0F099223247340010110C /* URLViewController.swift */,
+				2BF0F09F2233DA5F0010110C /* DBManager.swift */,
+				2BF0F0A12233E2B80010110C /* UrlModel.swift */,
+				2BF0F097223245440010110C /* URLManager.swift */,
 				2BF0F06D22323F8F0010110C /* Main.storyboard */,
+				2BF0F09D223285A90010110C /* URLTableViewCell.swift */,
 				2BF0F07022323F900010110C /* Assets.xcassets */,
 				2BF0F07222323F900010110C /* LaunchScreen.storyboard */,
 				2BF0F07522323F900010110C /* Info.plist */,
@@ -125,6 +147,23 @@
 			path = BrowserAppUITests;
 			sourceTree = "<group>";
 		};
+		785620ABBFF9C6716139B6E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4995D5068EA5FE444E24DE52 /* Pods_BrowserApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DB3DE05F0970C69C6CBBD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499A4B3FBAD43681470555F3 /* Pods-BrowserApp.debug.xcconfig */,
+				20FFEBD4ABE56182D45CAEBF /* Pods-BrowserApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BF0F08E22323F900010110C /* Build configuration list for PBXNativeTarget "BrowserApp" */;
 			buildPhases = (
+				F29310A0A08506E9035A52F5 /* [CP] Check Pods Manifest.lock */,
 				2BF0F06222323F8F0010110C /* Sources */,
 				2BF0F06322323F8F0010110C /* Frameworks */,
 				2BF0F06422323F8F0010110C /* Resources */,
+				C6F6E482EAB4F1E9842B1B0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +292,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6F6E482EAB4F1E9842B1B0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrowserApp/Pods-BrowserApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrowserApp/Pods-BrowserApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29310A0A08506E9035A52F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrowserApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BF0F06222323F8F0010110C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF0F09E223285A90010110C /* URLTableViewCell.swift in Sources */,
+				2BF0F0A22233E2B80010110C /* UrlModel.swift in Sources */,
+				2BF0F0A02233DA5F0010110C /* DBManager.swift in Sources */,
+				2BF0F09A223247340010110C /* URLViewController.swift in Sources */,
 				2BF0F06C22323F8F0010110C /* ViewController.swift in Sources */,
 				2BF0F06A22323F8F0010110C /* AppDelegate.swift in Sources */,
+				2BF0F098223245440010110C /* URLManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +525,7 @@
 		};
 		2BF0F08F22323F900010110C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499A4B3FBAD43681470555F3 /* Pods-BrowserApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +543,7 @@
 		};
 		2BF0F09022323F900010110C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FFEBD4ABE56182D45CAEBF /* Pods-BrowserApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
